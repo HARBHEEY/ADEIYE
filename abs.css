@@ -1,0 +1,140 @@
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto Serif", serif;
+} 
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: #141d22 1px solid;
+} 
+.nav-logo a{
+    color: #141d22;
+    font-size: 30px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-links a{
+    color: #141d22;
+    font-size: 10px;
+}
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav-buttons a{
+    color: #141d22;
+    font-size: 11px;
+    border-radius: 5px;
+
+}
+.nav-buttons a:nth-child(1){
+    background-color: #ffde02;
+    width: 100px;
+    height: 40px;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+}
+.nav-buttons a:nth-child(2){
+    background-color: #6c8595;
+    width: 1o0px;
+    height: 40px;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.nav-icons h3{
+    color: #141d22;
+}
+.hero-section{
+    position: relative;
+    margin-top: 40px;
+
+}
+.hero-video video{
+    width: 35%;
+    height: 35%;
+}
+.hero-video{
+    display: flex;
+    justify-content: center;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    gap: 60px;
+}
+.hero-text h2{
+    font-size: 40px;
+}
+.hero-text p{
+    font-size: 11px;
+    font-weight: 500;
+}
+.hero-flex{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.hero-flex a{
+    color: #141d22;
+    font-size: 11px;
+    border-radius: 5px;
+    }
+.hero-flex a:nth-child(1){
+    background-color: #ffde02;
+    width: 100px;
+    height: 40px;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+}
+.hero-flex a:nth-child(2){
+    background-color: #6c8595;
+    width: 1o0px;
+    height: 40px;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    background-color:black;
+    margin: 10px 80px;
+
+}
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.hero-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero-bottom h4{
+    font-size: 15px;
+    font-weight: 200px;
+}
